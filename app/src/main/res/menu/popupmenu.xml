@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editLT"
+        android:title="Ubah tugas"
+        />
+
+    <item
+        android:id="@+id/deleteLT"
+        android:title="Hapus tugas" />
+
+</menu>
+

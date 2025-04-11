@@ -1,0 +1,33 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    >
+
+    <!-- EditText -->
+    <EditText
+        android:id="@+id/inputList"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="Tambahkan daftar"
+        android:background="@drawable/custom_input"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/submitList"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="0dp" />
+
+    <!-- Submit Button -->
+    <ImageView
+        android:id="@+id/submitList"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/send"
+        app:layout_constraintTop_toTopOf="@id/inputList"
+        app:layout_constraintBottom_toBottomOf="@id/inputList"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

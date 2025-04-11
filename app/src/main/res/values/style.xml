@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDialogStyle" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+    <style name="PopupMenuStyle" parent="Base.Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_bg</item>
+    </style>
+</resources>
